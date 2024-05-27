@@ -17,7 +17,7 @@ const Assignment = () => {
 
   useEffect(() => {
     handleTodo();
-  });
+  },[]);
 
   return (
     <div>

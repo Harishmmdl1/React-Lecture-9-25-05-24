@@ -12,7 +12,7 @@ const Axios = () => {
     // console.log("handle post data");
 
     axios
-      .get("http://localhost:3000/posts")
+      .get("http://localhost:3002/posts")
       .then((response) => {
         // console.log(response?.data);
         setPosts(response?.data);
